@@ -1,0 +1,85 @@
+body {
+  display: flex;
+}
+header {
+  width: 40vw;
+}
+section {
+  width: 60vw;
+}
+.img1 {
+  width: 40vw;
+  height: 100vh;
+}
+.logo {
+  height: 15vh;
+  width: 40vw;
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  opacity: 0.7;
+  padding: 10px 0;
+}
+.container {
+  position: relative;
+}
+.img2 {
+  height: 15vh;
+}
+span {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.first {
+  background: #eee;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.first,
+.second,
+.third {
+  padding: 10px 20px;
+}
+.second {
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 5px;
+  width: 250px;
+}
+.third {
+  background: #eee;
+}
+.submit {
+  font-size: 14px;
+  font-weight: 700;
+}
+button {
+  padding: 10px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgb(65, 164, 65);
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+h2 {
+  font-weight: bold;
+}
