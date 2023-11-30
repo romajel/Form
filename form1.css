@@ -9,7 +9,7 @@ section {
 }
 .img1 {
   width: 40vw;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 .logo {
   height: 15vh;
@@ -64,6 +64,7 @@ input {
 }
 .third {
   background: #eee;
+  padding-bottom:50px;
 }
 .submit {
   font-size: 14px;
